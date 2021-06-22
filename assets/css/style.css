@@ -1,4 +1,45 @@
+@font-face {
+    font-family: "Haas Rg";
+    src: url("../fonts/NHaasGroteskTXPro-55Rg.ttf");
+  }
+  
+  @font-face {
+    font-family: "Haas B";
+    src: url("../fonts/NHaasGroteskTXPro-75Bd.ttf");
+  }
+  
+  @font-face {
+    font-family: "Haas Md";
+    src: url("../fonts/NHaasGroteskTXPro-65Md.ttf");
+  }
+
+  /* CSS reset code start */
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Haas Rg";
 }
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: gray;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* CSS reset code end */
