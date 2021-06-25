@@ -42,4 +42,272 @@ li {
     margin: auto;
 }
 
+.container-fluid {
+    width: 95%;
+    margin: auto;
+}
+
+
 /* CSS reset code end */
+
+.header {
+    background-color: #fff;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header .logo {
+    width: 10%;
+    float: left;
+}
+
+.header .menu {
+    width: 50%;
+    float: left;
+}
+
+.header .menu ul {
+    margin-top: 9px;
+}
+
+.header .menu ul li {
+    display: inline-block;
+}
+
+.header .menu ul li a {
+    color: #6e6d7a;
+    font-family: "Haas Md";
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+.header .menu ul li a:hover {
+    color: #ea4c89;
+}
+
+.header .auth {
+    width: 40%;
+    float: left;
+}
+
+.header .auth ul {
+    text-align: right;
+    margin-top: 9px;
+}
+
+.header .auth ul li {
+    display: inline-block;
+}
+
+.header .auth ul li a {
+    color: #6e6d7a;
+    font-family: "Haas Rg";
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+.header .auth ul li:last-child a {
+    background-color: #ea4c89;
+    font-family: "Haas Md";
+    color: #fff;
+    padding: 13px 19px;
+    border-radius: 5px;
+}
+
+.header .auth ul li:last-child a:hover {
+    background-color: #f082ac;
+}
+
+.banner {
+    height: 480px;
+    background-color: #f8f9fd;
+    overflow: hidden;
+}
+
+.banner-rel {
+    position: relative;
+}
+
+.banner img {
+    position: absolute;
+    right: -12px;
+    top: -65px;
+}
+
+.banner .banner-content {
+    margin-top: 101px;
+}
+
+.banner .banner-content h1 {
+    font-size: 48px;
+    font-family: "Haas B";
+    color: #000;
+    width: 63%;
+}
+
+.banner .banner-content p {
+    width: 52%;
+    margin: 26px 0px;
+}
+
+.banner .banner-content a {
+    background-color: #ea4c89;
+    font-family: "Haas Md";
+    color: #fff;
+    padding: 13px 19px;
+    border-radius: 5px;
+}
+
+.banner .banner-content a:hover {
+    background-color: #f082ac;
+}
+
+.product {
+    background-color: #fff;
+    padding: 40px 0px;
+}
+
+.product::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.product-menu {
+    margin-bottom: 20px;
+}
+
+.product-menu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.product .pmenu01 {
+    width: 10%;
+    float: left;
+}
+
+.product .pmenu01 select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    color: #6e6d7a;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product .pmenu01 select:hover {
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.product .pmenu02 {
+    width: 80%;
+    float: left;
+}
+
+.product .pmenu02 ul {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.product .pmenu02 ul li {
+    display: inline-block;
+}
+
+.product .pmenu02 ul li a {
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Haas Rg";
+    padding: 10px 10px;
+    color: #6e6d7a;
+}
+
+.product .pmenu03 {
+    width: 10%;
+    float: left;
+    margin-top: 5px;
+}
+
+.product .pmenu03 a {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    color: #6e6d7a;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.product .product-gallery .item01 {
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+}
+
+.product .product-gallery .item01 .product-featured {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+    border-radius: 11px;
+    position: relative;
+    overflow: hidden;
+}
+
+.product .product-gallery .item01 .product-featured .hover-content {
+    height: 61px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    color: #fff;
+    opacity: 0;
+}
+
+.product .product-gallery .item01 .product-featured .hover-content::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.product .product-gallery .item01 .product-featured .hover-content h4 {
+    width: 70%;
+    float: left;
+}
+
+.product .product-gallery .item01 .product-featured .hover-content .hover-buttons {
+    width: 30%;
+    float: left;
+}
+
+.product .product-gallery .item01 .product-featured .hover-content .hover-buttons a {
+    color: #333;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.product .product-gallery .item01 .product-featured .hover-content .hover-buttons a:nth-child(1) {
+    margin-right: 7px;
+}
+
+.product .product-gallery {
+    text-align: center;
+}
+
+.product .product-gallery .item01 .product-featured:hover .hover-content {
+    opacity: 1;
+    transition: 0.4s;
+}
